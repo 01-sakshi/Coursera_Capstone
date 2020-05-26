@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b8c4ee210b2442b1afbd211990aa8d03 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b8c4ee210b2442b1afbd211990aa8d03" ></div>
+        
+</body>
+<script>    
+    
+            var map_b8c4ee210b2442b1afbd211990aa8d03 = L.map(
+                "map_b8c4ee210b2442b1afbd211990aa8d03",
+                {
+                    center: [31.29201065, 75.56805772253911],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_438e5f9306ae4825b2b411e0c1fa3468 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b8c4ee210b2442b1afbd211990aa8d03);
+        
+    
+            var marker_6fb1498edec8462aaeb6f21ad6741354 = L.marker(
+                [31.3066, 75.5771],
+                {}
+            ).addTo(map_b8c4ee210b2442b1afbd211990aa8d03);
+        
+    
+            var icon_e4d4174afd1a4d3daf3ccc3545207b2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_6fb1498edec8462aaeb6f21ad6741354.setIcon(icon_e4d4174afd1a4d3daf3ccc3545207b2c);
+        
+    
+        var popup_03565a56269a4b57bc4c38794fd931ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4beae33a8db245658fbedfc2e1060dfd = $(`<div id="html_4beae33a8db245658fbedfc2e1060dfd" style="width: 100.0%; height: 100.0%;">KFC, Model Town Market, Model Town, Jalandhar</div>`)[0];
+            popup_03565a56269a4b57bc4c38794fd931ad.setContent(html_4beae33a8db245658fbedfc2e1060dfd);
+        
+
+        marker_6fb1498edec8462aaeb6f21ad6741354.bindPopup(popup_03565a56269a4b57bc4c38794fd931ad)
+        ;
+
+        
+    
+    
+            var marker_2e1892771865490a9154647a0076ae67 = L.marker(
+                [31.311, 75.5827],
+                {}
+            ).addTo(map_b8c4ee210b2442b1afbd211990aa8d03);
+        
+    
+            var icon_7949e8774f40416bb5ae4fa35db56db7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2e1892771865490a9154647a0076ae67.setIcon(icon_7949e8774f40416bb5ae4fa35db56db7);
+        
+    
+        var popup_5c52a84e8017409e9424fad54e621698 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7504fc4ea14247f296f1f2785a2baeb8 = $(`<div id="html_7504fc4ea14247f296f1f2785a2baeb8" style="width: 100.0%; height: 100.0%;">Brewmaster, New Jawahar Nagar, Model Town, Jalandhar</div>`)[0];
+            popup_5c52a84e8017409e9424fad54e621698.setContent(html_7504fc4ea14247f296f1f2785a2baeb8);
+        
+
+        marker_2e1892771865490a9154647a0076ae67.bindPopup(popup_5c52a84e8017409e9424fad54e621698)
+        ;
+
+        
+    
+    
+            var marker_0600568f89704ee390b038d31d544e64 = L.marker(
+                [31.3062, 75.5787],
+                {}
+            ).addTo(map_b8c4ee210b2442b1afbd211990aa8d03);
+        
+    
+            var icon_60df5bf70f4249bc8fc88fee65ed3441 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_0600568f89704ee390b038d31d544e64.setIcon(icon_60df5bf70f4249bc8fc88fee65ed3441);
+        
+    
+        var popup_c0bdda212ebe40458a86a0d252c3987e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04e468669fc642a886d6b964236cd226 = $(`<div id="html_04e468669fc642a886d6b964236cd226" style="width: 100.0%; height: 100.0%;">Parkash Bakery, 13 A, Model Town, Jalandhar</div>`)[0];
+            popup_c0bdda212ebe40458a86a0d252c3987e.setContent(html_04e468669fc642a886d6b964236cd226);
+        
+
+        marker_0600568f89704ee390b038d31d544e64.bindPopup(popup_c0bdda212ebe40458a86a0d252c3987e)
+        ;
+
+        
+    
+    
+            var marker_9346e5e211ee42ada24fab4f5d0ae5d3 = L.marker(
+                [31.3069, 75.5788],
+                {}
+            ).addTo(map_b8c4ee210b2442b1afbd211990aa8d03);
+        
+    
+            var icon_d2adf6cf013d48dfb4625c20258c4b0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_9346e5e211ee42ada24fab4f5d0ae5d3.setIcon(icon_d2adf6cf013d48dfb4625c20258c4b0e);
+        
+    
+        var popup_0c0421b6104a4233a941a2c00b35cabf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4be8395722f4b5680065f5231c4c1a6 = $(`<div id="html_a4be8395722f4b5680065f5231c4c1a6" style="width: 100.0%; height: 100.0%;">Subway, 540, Rainbow Road, Model Town, Jalandhar</div>`)[0];
+            popup_0c0421b6104a4233a941a2c00b35cabf.setContent(html_a4be8395722f4b5680065f5231c4c1a6);
+        
+
+        marker_9346e5e211ee42ada24fab4f5d0ae5d3.bindPopup(popup_0c0421b6104a4233a941a2c00b35cabf)
+        ;
+
+        
+    
+    
+            var marker_929a42d7cdc34f4ca7aa50d1d39743bd = L.marker(
+                [31.2984, 75.5883],
+                {}
+            ).addTo(map_b8c4ee210b2442b1afbd211990aa8d03);
+        
+    
+            var icon_045da04ff9954db390ac46e3489c74e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_929a42d7cdc34f4ca7aa50d1d39743bd.setIcon(icon_045da04ff9954db390ac46e3489c74e2);
+        
+    
+        var popup_28bff3179fa9465aa9a587ac0607798a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f00593e778ae4694a0fef9c93213b3b9 = $(`<div id="html_f00593e778ae4694a0fef9c93213b3b9" style="width: 100.0%; height: 100.0%;">Subway, SCO 85, Phase 2 Market, Urban Estate, Jalandhar</div>`)[0];
+            popup_28bff3179fa9465aa9a587ac0607798a.setContent(html_f00593e778ae4694a0fef9c93213b3b9);
+        
+
+        marker_929a42d7cdc34f4ca7aa50d1d39743bd.bindPopup(popup_28bff3179fa9465aa9a587ac0607798a)
+        ;
+
+        
+    
+    
+            var marker_0fe1ef7e88b8453ca177a569d0dd340a = L.marker(
+                [31.3047, 75.5819],
+                {}
+            ).addTo(map_b8c4ee210b2442b1afbd211990aa8d03);
+        
+    
+            var icon_aa1d0ba6b68348f8b24e5d1b40775c9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_0fe1ef7e88b8453ca177a569d0dd340a.setIcon(icon_aa1d0ba6b68348f8b24e5d1b40775c9e);
+        
+    
+        var popup_79874ec540bf466ba989fb7fb0380236 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebade64d5e844c698dfbf70d7b034fa2 = $(`<div id="html_ebade64d5e844c698dfbf70d7b034fa2" style="width: 100.0%; height: 100.0%;">Platoon Pizza, 370-R, Model Town, Jalandhar</div>`)[0];
+            popup_79874ec540bf466ba989fb7fb0380236.setContent(html_ebade64d5e844c698dfbf70d7b034fa2);
+        
+
+        marker_0fe1ef7e88b8453ca177a569d0dd340a.bindPopup(popup_79874ec540bf466ba989fb7fb0380236)
+        ;
+
+        
+    
+    
+            var marker_2fc8a1fa382d49ba9430d31750b1ee83 = L.marker(
+                [31.3111, 75.5828],
+                {}
+            ).addTo(map_b8c4ee210b2442b1afbd211990aa8d03);
+        
+    
+            var icon_b4ebcf7454854903a2adc78d44561c07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2fc8a1fa382d49ba9430d31750b1ee83.setIcon(icon_b4ebcf7454854903a2adc78d44561c07);
+        
+    
+        var popup_4a9c973945a44c12a6c1daf3cc30734c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3372866909e94d4691ba3b9a3364f319 = $(`<div id="html_3372866909e94d4691ba3b9a3364f319" style="width: 100.0%; height: 100.0%;">Baskin Robbins, New Jawahar Nagar, Model Town, Jalandhar</div>`)[0];
+            popup_4a9c973945a44c12a6c1daf3cc30734c.setContent(html_3372866909e94d4691ba3b9a3364f319);
+        
+
+        marker_2fc8a1fa382d49ba9430d31750b1ee83.bindPopup(popup_4a9c973945a44c12a6c1daf3cc30734c)
+        ;
+
+        
+    
+    
+            var marker_448156ac9b36434d97a6ece99f6270d6 = L.marker(
+                [31.2875, 75.6617],
+                {}
+            ).addTo(map_b8c4ee210b2442b1afbd211990aa8d03);
+        
+    
+            var icon_b770d4e8c7924fe8889d356f4fecd142 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_448156ac9b36434d97a6ece99f6270d6.setIcon(icon_b770d4e8c7924fe8889d356f4fecd142);
+        
+    
+        var popup_f53be79fc6824540bb7bdb92a9338157 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79acc02f1d514fcfb02ab5fb4cdc4f51 = $(`<div id="html_79acc02f1d514fcfb02ab5fb4cdc4f51" style="width: 100.0%; height: 100.0%;">KFC, Khasra 867/868, Jalandhar Phagwara Highway, Village Paragpur, GT Road, Jalandhar</div>`)[0];
+            popup_f53be79fc6824540bb7bdb92a9338157.setContent(html_79acc02f1d514fcfb02ab5fb4cdc4f51);
+        
+
+        marker_448156ac9b36434d97a6ece99f6270d6.bindPopup(popup_f53be79fc6824540bb7bdb92a9338157)
+        ;
+
+        
+    
+    
+            var marker_ba3ad72acc8a4ed5acfd99822fe49b00 = L.marker(
+                [31.3191, 75.585],
+                {}
+            ).addTo(map_b8c4ee210b2442b1afbd211990aa8d03);
+        
+    
+            var icon_f67bf71495114c8298ac7c6e3d49cad5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ba3ad72acc8a4ed5acfd99822fe49b00.setIcon(icon_f67bf71495114c8298ac7c6e3d49cad5);
+        
+    
+        var popup_41d08459fe96473db01d038afa4a22f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f823c434039402d84bad73110c87c6b = $(`<div id="html_9f823c434039402d84bad73110c87c6b" style="width: 100.0%; height: 100.0%;">The Great Indian Kabab Factory, Radisson Hotel, GT Road, Jalandhar Cantt, Jalandhar</div>`)[0];
+            popup_41d08459fe96473db01d038afa4a22f1.setContent(html_9f823c434039402d84bad73110c87c6b);
+        
+
+        marker_ba3ad72acc8a4ed5acfd99822fe49b00.bindPopup(popup_41d08459fe96473db01d038afa4a22f1)
+        ;
+
+        
+    
+    
+            var marker_5820948dad22424283512e1b7597fb53 = L.marker(
+                [31.3193, 75.5845],
+                {}
+            ).addTo(map_b8c4ee210b2442b1afbd211990aa8d03);
+        
+    
+            var icon_3c8d9741b78140d6a06df683519d08f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_5820948dad22424283512e1b7597fb53.setIcon(icon_3c8d9741b78140d6a06df683519d08f1);
+        
+    
+        var popup_51244d1788604b3a856b8d3ea071798c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c245c901a5e543a08e8b937e6c01be86 = $(`<div id="html_c245c901a5e543a08e8b937e6c01be86" style="width: 100.0%; height: 100.0%;">Subway, Food Court, 3rd Floor, MBD Neopolis Mall, Jalandhar Cantt, Jalandhar</div>`)[0];
+            popup_51244d1788604b3a856b8d3ea071798c.setContent(html_c245c901a5e543a08e8b937e6c01be86);
+        
+
+        marker_5820948dad22424283512e1b7597fb53.bindPopup(popup_51244d1788604b3a856b8d3ea071798c)
+        ;
+
+        
+    
+</script>

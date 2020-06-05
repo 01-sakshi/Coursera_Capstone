@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_456be09711824b18a2bb1d33ebeb9753 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_456be09711824b18a2bb1d33ebeb9753" ></div>
+        
+</body>
+<script>    
+    
+            var map_456be09711824b18a2bb1d33ebeb9753 = L.map(
+                "map_456be09711824b18a2bb1d33ebeb9753",
+                {
+                    center: [31.6343083, 74.8736788],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4bd701cbba374b0c8bf10f3e5589e6de = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+            var circle_marker_a349df57dab849f48a3a189c68e51185 = L.circleMarker(
+                [31.628441, 74.876678],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_286cfb98dfe64e34b206d12c189f4c1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df5599ddb519479a884b8b55a4366f29 = $(`<div id="html_df5599ddb519479a884b8b55a4366f29" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Chowk Gol Hatti,Opposite Yes Bank, Town Hall, Amritsar</div>`)[0];
+            popup_286cfb98dfe64e34b206d12c189f4c1e.setContent(html_df5599ddb519479a884b8b55a4366f29);
+        
+
+        circle_marker_a349df57dab849f48a3a189c68e51185.bindPopup(popup_286cfb98dfe64e34b206d12c189f4c1e)
+        ;
+
+        
+    
+    
+            var circle_marker_3a77ef23ba614756a46c7df53efe7dde = L.circleMarker(
+                [31.619364, 74.879958],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_7acb8f37cb1042e892cc189d6157e765 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28274c11b1774ef5a384976a1b711acb = $(`<div id="html_28274c11b1774ef5a384976a1b711acb" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, 55 Mahana Singh Road, Near Guru Ram Dass Sarai, Golden Temple, Amritsar</div>`)[0];
+            popup_7acb8f37cb1042e892cc189d6157e765.setContent(html_28274c11b1774ef5a384976a1b711acb);
+        
+
+        circle_marker_3a77ef23ba614756a46c7df53efe7dde.bindPopup(popup_7acb8f37cb1042e892cc189d6157e765)
+        ;
+
+        
+    
+    
+            var circle_marker_372bd1ca192a4bc491ddbc0c7e6a4521 = L.circleMarker(
+                [31.6461156903, 74.8779610544],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_c651a3882f7e4e68a0abb8bbe1ff38f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_630cb86072ce4cc08814c7defef516bc = $(`<div id="html_630cb86072ce4cc08814c7defef516bc" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Shop 1, Opposite Bijli Pehalwan Mandir, Lawrence Road, Lawrence Road, Amritsar</div>`)[0];
+            popup_c651a3882f7e4e68a0abb8bbe1ff38f1.setContent(html_630cb86072ce4cc08814c7defef516bc);
+        
+
+        circle_marker_372bd1ca192a4bc491ddbc0c7e6a4521.bindPopup(popup_c651a3882f7e4e68a0abb8bbe1ff38f1)
+        ;
+
+        
+    
+    
+            var circle_marker_b357f97dcd414e6ea5683fa48db5e867 = L.circleMarker(
+                [31.624386, 74.873005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_b308882e5b9f43aeb6e675698d24f7e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71579b9b71384340857fa459479b83bf = $(`<div id="html_71579b9b71384340857fa459479b83bf" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Near Telephone Exchange, Chowk Passian, Hathi Gate, Amritsar</div>`)[0];
+            popup_b308882e5b9f43aeb6e675698d24f7e4.setContent(html_71579b9b71384340857fa459479b83bf);
+        
+
+        circle_marker_b357f97dcd414e6ea5683fa48db5e867.bindPopup(popup_b308882e5b9f43aeb6e675698d24f7e4)
+        ;
+
+        
+    
+    
+            var circle_marker_e5c7e1271f3544b29433b64564fd8d03 = L.circleMarker(
+                [31.635509, 74.87592],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_fc18e9e7288e43b18ee2f8311d6c1206 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0420228923ee4324b2e91e93adfbc8e2 = $(`<div id="html_0420228923ee4324b2e91e93adfbc8e2" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, 1st and 2nd Floor, Crystal Chowk, Queens Road, INA Colony, Amritsar</div>`)[0];
+            popup_fc18e9e7288e43b18ee2f8311d6c1206.setContent(html_0420228923ee4324b2e91e93adfbc8e2);
+        
+
+        circle_marker_e5c7e1271f3544b29433b64564fd8d03.bindPopup(popup_fc18e9e7288e43b18ee2f8311d6c1206)
+        ;
+
+        
+    
+    
+            var circle_marker_1ecfbcb0cdef41ff99a2bdd87126b6c2 = L.circleMarker(
+                [31.6392421838, 74.8904631659],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_46610b0399bf475587581d4aa12ec19e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2e6038f8d2d4e8bba50f72820a09ba5 = $(`<div id="html_e2e6038f8d2d4e8bba50f72820a09ba5" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Shop 1, Opposite Cinepolis, Batala Road, Basant Nagar, Amritsar</div>`)[0];
+            popup_46610b0399bf475587581d4aa12ec19e.setContent(html_e2e6038f8d2d4e8bba50f72820a09ba5);
+        
+
+        circle_marker_1ecfbcb0cdef41ff99a2bdd87126b6c2.bindPopup(popup_46610b0399bf475587581d4aa12ec19e)
+        ;
+
+        
+    
+    
+            var circle_marker_34c181dd8b6247cf8470580043bef410 = L.circleMarker(
+                [31.657735, 74.8776641],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_d5817c5170974aaabc39344038ebcf8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a72030dd2d0439883e319596ffc9169 = $(`<div id="html_9a72030dd2d0439883e319596ffc9169" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Opposite Trillium Mall, Circular Road, Near Bhatia Hospital, White Avenue, Amritsar</div>`)[0];
+            popup_d5817c5170974aaabc39344038ebcf8c.setContent(html_9a72030dd2d0439883e319596ffc9169);
+        
+
+        circle_marker_34c181dd8b6247cf8470580043bef410.bindPopup(popup_d5817c5170974aaabc39344038ebcf8c)
+        ;
+
+        
+    
+    
+            var circle_marker_1874d2b81ec64df9ad455357cbb8c72b = L.circleMarker(
+                [31.6213608667, 74.8785099015],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_828d10fa58c54f53a7b2bd4d4552de0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c78207700c78454abbff8c4c8a6371e4 = $(`<div id="html_c78207700c78454abbff8c4c8a6371e4" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Bazar Bikaneria, Near Golden Temple, Katra Ahluwalia, Town Hall, Amritsar</div>`)[0];
+            popup_828d10fa58c54f53a7b2bd4d4552de0d.setContent(html_c78207700c78454abbff8c4c8a6371e4);
+        
+
+        circle_marker_1874d2b81ec64df9ad455357cbb8c72b.bindPopup(popup_828d10fa58c54f53a7b2bd4d4552de0d)
+        ;
+
+        
+    
+    
+            var circle_marker_c5c8cde687324264a2a2dc7995faa374 = L.circleMarker(
+                [31.6267058103, 74.8780512437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_7e9a352ca35a4962bbac41512b16941b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de9ff556ce39417f80817fad627e7755 = $(`<div id="html_de9ff556ce39417f80817fad627e7755" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Opposite Punjab &amp; Sindh Bank, Near CD Mehra Book Shop, Hall Bazar, Town Hall, Amritsar</div>`)[0];
+            popup_7e9a352ca35a4962bbac41512b16941b.setContent(html_de9ff556ce39417f80817fad627e7755);
+        
+
+        circle_marker_c5c8cde687324264a2a2dc7995faa374.bindPopup(popup_7e9a352ca35a4962bbac41512b16941b)
+        ;
+
+        
+    
+    
+            var circle_marker_c79a6643ffa8458992e6c4860cfbbfac = L.circleMarker(
+                [31.6339798874, 74.859990254],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_7081720351b94787846a4d10e69f5579 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5280838d60fe47db8e42c3be2144ec7f = $(`<div id="html_5280838d60fe47db8e42c3be2144ec7f" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Golden Tulip, 8, GT Road, Model Town, Rani Ka Bagh, Amritsar</div>`)[0];
+            popup_7081720351b94787846a4d10e69f5579.setContent(html_5280838d60fe47db8e42c3be2144ec7f);
+        
+
+        circle_marker_c79a6643ffa8458992e6c4860cfbbfac.bindPopup(popup_7081720351b94787846a4d10e69f5579)
+        ;
+
+        
+    
+    
+            var circle_marker_8cc3aaaf56e947b4b7168cac8eba6852 = L.circleMarker(
+                [31.6353089772, 74.8735357448],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_0d519eb51c16425c88d71cc6ac6d104d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_853086f66d92458b882ba6c9d046982e = $(`<div id="html_853086f66d92458b882ba6c9d046982e" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Country Inn &amp; Suites, Queens Road, INA Colony, Amritsar</div>`)[0];
+            popup_0d519eb51c16425c88d71cc6ac6d104d.setContent(html_853086f66d92458b882ba6c9d046982e);
+        
+
+        circle_marker_8cc3aaaf56e947b4b7168cac8eba6852.bindPopup(popup_0d519eb51c16425c88d71cc6ac6d104d)
+        ;
+
+        
+    
+    
+            var circle_marker_874d7e668745483fb07be149a932bbe5 = L.circleMarker(
+                [31.6532167238, 74.8638851568],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_30f0a8e7fb104a8aba6fc0548a913d3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97a24ff493f84d3781d10b732cdd1e63 = $(`<div id="html_97a24ff493f84d3781d10b732cdd1e63" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Opposite District Shopping Centre, Ranjit Avenue, Amritsar</div>`)[0];
+            popup_30f0a8e7fb104a8aba6fc0548a913d3f.setContent(html_97a24ff493f84d3781d10b732cdd1e63);
+        
+
+        circle_marker_874d7e668745483fb07be149a932bbe5.bindPopup(popup_30f0a8e7fb104a8aba6fc0548a913d3f)
+        ;
+
+        
+    
+    
+            var circle_marker_ae3de6f74ca34f51a42429c11abd8f7d = L.circleMarker(
+                [31.6214939087, 74.8797373474],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_792e7dea835d4f0bb368c70968064d68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fc616836b764cc086c2c5ac5b1bd53f = $(`<div id="html_7fc616836b764cc086c2c5ac5b1bd53f" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Shop 6, Near Bazar Bagh, Jallianwala, Town Hall, Amritsar</div>`)[0];
+            popup_792e7dea835d4f0bb368c70968064d68.setContent(html_7fc616836b764cc086c2c5ac5b1bd53f);
+        
+
+        circle_marker_ae3de6f74ca34f51a42429c11abd8f7d.bindPopup(popup_792e7dea835d4f0bb368c70968064d68)
+        ;
+
+        
+    
+    
+            var circle_marker_8461e082fad14a0aa40569485748e7b3 = L.circleMarker(
+                [31.6186448827, 74.9086575955],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_8c21f660384d46a3a318e361a7bd22fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cb77c03fdf14469902ce8cbad425edc = $(`<div id="html_0cb77c03fdf14469902ce8cbad425edc" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Hyatt Regency, MBM Farms, GT Road, Amritsar</div>`)[0];
+            popup_8c21f660384d46a3a318e361a7bd22fe.setContent(html_0cb77c03fdf14469902ce8cbad425edc);
+        
+
+        circle_marker_8461e082fad14a0aa40569485748e7b3.bindPopup(popup_8c21f660384d46a3a318e361a7bd22fe)
+        ;
+
+        
+    
+    
+            var circle_marker_71599f018ddb4f1b9a9d83a4ad693965 = L.circleMarker(
+                [31.6267058103, 74.8780512437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_07fe5d6aec064600a031d98c9eb4d737 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8a2123d0ef249e685c767033090984e = $(`<div id="html_d8a2123d0ef249e685c767033090984e" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Opposite Punjab &amp; Sindh Bank, Near CD Mehra Book Shop, Hall Bazar, Town Hall, Amritsar</div>`)[0];
+            popup_07fe5d6aec064600a031d98c9eb4d737.setContent(html_d8a2123d0ef249e685c767033090984e);
+        
+
+        circle_marker_71599f018ddb4f1b9a9d83a4ad693965.bindPopup(popup_07fe5d6aec064600a031d98c9eb4d737)
+        ;
+
+        
+    
+    
+            var circle_marker_5a97da5e006b4342888de0776cf4ad0e = L.circleMarker(
+                [31.642325206, 74.8761830851],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_cc5167181bbe44ea833c74a3a022f65c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8737ac6b67504107950b6994687670e8 = $(`<div id="html_8737ac6b67504107950b6994687670e8" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Shop 4, Nehru Shopping Complex, Lawrence Road, Amritsar</div>`)[0];
+            popup_cc5167181bbe44ea833c74a3a022f65c.setContent(html_8737ac6b67504107950b6994687670e8);
+        
+
+        circle_marker_5a97da5e006b4342888de0776cf4ad0e.bindPopup(popup_cc5167181bbe44ea833c74a3a022f65c)
+        ;
+
+        
+    
+    
+            var circle_marker_8977a025dc2a4307b303fc936ebf9628 = L.circleMarker(
+                [31.6309020125, 74.8742337897],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_719bf8af5a64460d89b2bfd15e3f9d84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c407b3fc7df84499a6c3b36a3a4db4b5 = $(`<div id="html_c407b3fc7df84499a6c3b36a3a4db4b5" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Shop 13 I/S, Hall Gate Hathi Gate, Amritsar</div>`)[0];
+            popup_719bf8af5a64460d89b2bfd15e3f9d84.setContent(html_c407b3fc7df84499a6c3b36a3a4db4b5);
+        
+
+        circle_marker_8977a025dc2a4307b303fc936ebf9628.bindPopup(popup_719bf8af5a64460d89b2bfd15e3f9d84)
+        ;
+
+        
+    
+    
+            var circle_marker_92741037dcd64b51b2fafa70bdc155b8 = L.circleMarker(
+                [31.6503081627, 74.862858206],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_f11e7e9fbdae40ca9527663b99a96646 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4fa144106c64d45b67290609569ce25 = $(`<div id="html_b4fa144106c64d45b67290609569ce25" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, 8, District Shopping Complex, Block B, Ranjit Avenue, Amritsar</div>`)[0];
+            popup_f11e7e9fbdae40ca9527663b99a96646.setContent(html_b4fa144106c64d45b67290609569ce25);
+        
+
+        circle_marker_92741037dcd64b51b2fafa70bdc155b8.bindPopup(popup_f11e7e9fbdae40ca9527663b99a96646)
+        ;
+
+        
+    
+    
+            var circle_marker_da23871bda9745b1a6e7e8b23f36773a = L.circleMarker(
+                [31.705831, 74.818894],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_d1d2471fa6af4dfb89390fc63d63b332 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fec8b3ffe3af4064a8ef1713a7469247 = $(`<div id="html_fec8b3ffe3af4064a8ef1713a7469247" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Ajnala Road, State Highway 25, Opposite International Airport, Off Ranjit Avenue, Amritsar</div>`)[0];
+            popup_d1d2471fa6af4dfb89390fc63d63b332.setContent(html_fec8b3ffe3af4064a8ef1713a7469247);
+        
+
+        circle_marker_da23871bda9745b1a6e7e8b23f36773a.bindPopup(popup_d1d2471fa6af4dfb89390fc63d63b332)
+        ;
+
+        
+    
+    
+            var circle_marker_54a9be8ba8da46b6b71dbce5eb782a6e = L.circleMarker(
+                [31.6592270621, 74.8784988374],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_b0e123a2afc74941909ebb7c84e6c9d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84f4e40bbb3b4d7bb0f1930ec7aa7923 = $(`<div id="html_84f4e40bbb3b4d7bb0f1930ec7aa7923" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Taj Swarna, Plot C-3, Outer Circular Road, Opposite Basant Avenue, White Avenue, Amritsar</div>`)[0];
+            popup_b0e123a2afc74941909ebb7c84e6c9d1.setContent(html_84f4e40bbb3b4d7bb0f1930ec7aa7923);
+        
+
+        circle_marker_54a9be8ba8da46b6b71dbce5eb782a6e.bindPopup(popup_b0e123a2afc74941909ebb7c84e6c9d1)
+        ;
+
+        
+    
+    
+            var circle_marker_d4ddc857b27c472f9ea31c4ea5e917bf = L.circleMarker(
+                [31.6443655, 74.8785099],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_f282b761fc244ce99ad5bc5b5775981b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_935f6f565b90492f88800cdb39b00762 = $(`<div id="html_935f6f565b90492f88800cdb39b00762" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, 6-A, Nayi Sadak, Lawrence Road, Amritsar</div>`)[0];
+            popup_f282b761fc244ce99ad5bc5b5775981b.setContent(html_935f6f565b90492f88800cdb39b00762);
+        
+
+        circle_marker_d4ddc857b27c472f9ea31c4ea5e917bf.bindPopup(popup_f282b761fc244ce99ad5bc5b5775981b)
+        ;
+
+        
+    
+    
+            var circle_marker_bc2f416ec6df46d19860952e1f74de1e = L.circleMarker(
+                [31.6435477111, 74.8843691871],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_8932941008374a09ae1d5ff40bb4a747 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1508edea84ac4605a0f6c30f99fbd634 = $(`<div id="html_1508edea84ac4605a0f6c30f99fbd634" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, 21-A, Near Madaan Hospital, Majitha Road, Amritsar</div>`)[0];
+            popup_8932941008374a09ae1d5ff40bb4a747.setContent(html_1508edea84ac4605a0f6c30f99fbd634);
+        
+
+        circle_marker_bc2f416ec6df46d19860952e1f74de1e.bindPopup(popup_8932941008374a09ae1d5ff40bb4a747)
+        ;
+
+        
+    
+    
+            var circle_marker_cf68672c578b4468983801ed8caa6785 = L.circleMarker(
+                [31.6224705915, 74.8796692863],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_6d21428746ad486a8aaa6fbc35dc5e5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_676ebf4fe0d649189df4356886f84194 = $(`<div id="html_676ebf4fe0d649189df4356886f84194" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Inside Pizza Point Restaurant, Opposite Golden Temple Post Office, Town Hall, Amritsar</div>`)[0];
+            popup_6d21428746ad486a8aaa6fbc35dc5e5f.setContent(html_676ebf4fe0d649189df4356886f84194);
+        
+
+        circle_marker_cf68672c578b4468983801ed8caa6785.bindPopup(popup_6d21428746ad486a8aaa6fbc35dc5e5f)
+        ;
+
+        
+    
+    
+            var circle_marker_b7247e3c2cd5409aad29a6a754a1f959 = L.circleMarker(
+                [31.6433416304, 74.8763775453],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_a650004bd64842d89be7382e0bc7a3b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4810b5b2dbf4487aa41978f9fbacd554 = $(`<div id="html_4810b5b2dbf4487aa41978f9fbacd554" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, 1, Khurana Market, Lawrence Road, Amritsar</div>`)[0];
+            popup_a650004bd64842d89be7382e0bc7a3b5.setContent(html_4810b5b2dbf4487aa41978f9fbacd554);
+        
+
+        circle_marker_b7247e3c2cd5409aad29a6a754a1f959.bindPopup(popup_a650004bd64842d89be7382e0bc7a3b5)
+        ;
+
+        
+    
+    
+            var circle_marker_d8130a6e9cb24552aae46fe319a60dfc = L.circleMarker(
+                [31.61965, 74.907661],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_d3a21e0c106b442d8d326ec66f9edc98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b01f54666844fd0887254bf7934605e = $(`<div id="html_4b01f54666844fd0887254bf7934605e" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, S 026, 2ndFloor, Food Court, Mall Of Amritsar, GT Road, Amritsar</div>`)[0];
+            popup_d3a21e0c106b442d8d326ec66f9edc98.setContent(html_4b01f54666844fd0887254bf7934605e);
+        
+
+        circle_marker_d8130a6e9cb24552aae46fe319a60dfc.bindPopup(popup_d3a21e0c106b442d8d326ec66f9edc98)
+        ;
+
+        
+    
+    
+            var circle_marker_6387ebb1165e48ebb5d56bbd783ee037 = L.circleMarker(
+                [31.6355890085, 74.8740684986],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_28ac155152dd4611a8a3e009e0709c58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00bfee6b7e5f44b680a5a27f6b24e867 = $(`<div id="html_00bfee6b7e5f44b680a5a27f6b24e867" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Chowk Katra Baghian, R.S Tower, Hall Bazar, Town Hall, Amritsar</div>`)[0];
+            popup_28ac155152dd4611a8a3e009e0709c58.setContent(html_00bfee6b7e5f44b680a5a27f6b24e867);
+        
+
+        circle_marker_6387ebb1165e48ebb5d56bbd783ee037.bindPopup(popup_28ac155152dd4611a8a3e009e0709c58)
+        ;
+
+        
+    
+    
+            var circle_marker_afe6eae4cd3d4740885d43415aaddcf7 = L.circleMarker(
+                [31.705831, 74.818894],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_659e7e34fd6b437ea532adba44e59289 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92a85d186a5c4b4f9488cfa2b14cca5a = $(`<div id="html_92a85d186a5c4b4f9488cfa2b14cca5a" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Ajnala Road, State Highway 25, Opposite International Airport, Off Ranjit Avenue, Amritsar</div>`)[0];
+            popup_659e7e34fd6b437ea532adba44e59289.setContent(html_92a85d186a5c4b4f9488cfa2b14cca5a);
+        
+
+        circle_marker_afe6eae4cd3d4740885d43415aaddcf7.bindPopup(popup_659e7e34fd6b437ea532adba44e59289)
+        ;
+
+        
+    
+    
+            var circle_marker_ea3ad88f75f649db821f86875bfc5e58 = L.circleMarker(
+                [31.622506, 74.879733],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_cff4687a6acc42a08a1bdde9ac923a29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08bdc5363c2a4506b264ca12f25ca3f7 = $(`<div id="html_08bdc5363c2a4506b264ca12f25ca3f7" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Pizza Point, Opposite Golden Temple Post Office, Chowk Phuwara, INA Colony, Amritsar</div>`)[0];
+            popup_cff4687a6acc42a08a1bdde9ac923a29.setContent(html_08bdc5363c2a4506b264ca12f25ca3f7);
+        
+
+        circle_marker_ea3ad88f75f649db821f86875bfc5e58.bindPopup(popup_cff4687a6acc42a08a1bdde9ac923a29)
+        ;
+
+        
+    
+    
+            var circle_marker_b558de5d151540ce80ac00437df80ee8 = L.circleMarker(
+                [31.6586023589, 74.879344739],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_0d7ca651a08b49a388c9e6aace1c48b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_663facf995924d85adb286999db80d07 = $(`<div id="html_663facf995924d85adb286999db80d07" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Food Court, Trillium Mall, White Avenue, Amritsar</div>`)[0];
+            popup_0d7ca651a08b49a388c9e6aace1c48b8.setContent(html_663facf995924d85adb286999db80d07);
+        
+
+        circle_marker_b558de5d151540ce80ac00437df80ee8.bindPopup(popup_0d7ca651a08b49a388c9e6aace1c48b8)
+        ;
+
+        
+    
+    
+            var circle_marker_e67d3f5c4e314f339162077f168622ec = L.circleMarker(
+                [31.6356198376, 74.8745056987],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_47e9f07b1eec487b87d87d20e2d75243 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39208830e97f41b6ae33045b3e321f66 = $(`<div id="html_39208830e97f41b6ae33045b3e321f66" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, 3, Queen&amp;#39;s Road, INA Colony, Amritsar</div>`)[0];
+            popup_47e9f07b1eec487b87d87d20e2d75243.setContent(html_39208830e97f41b6ae33045b3e321f66);
+        
+
+        circle_marker_e67d3f5c4e314f339162077f168622ec.bindPopup(popup_47e9f07b1eec487b87d87d20e2d75243)
+        ;
+
+        
+    
+    
+            var circle_marker_adfc170a5b7643f29280909dca5acf2a = L.circleMarker(
+                [31.6509152264, 74.862235263],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_7a821a223fc54e3d89916800e26374a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_822e6cf5995545b996c657cec78ad1c2 = $(`<div id="html_822e6cf5995545b996c657cec78ad1c2" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, H K Clarks Inn, SCO 14, District Shopping Complex, Ranjit Avenue, Amritsar</div>`)[0];
+            popup_7a821a223fc54e3d89916800e26374a8.setContent(html_822e6cf5995545b996c657cec78ad1c2);
+        
+
+        circle_marker_adfc170a5b7643f29280909dca5acf2a.bindPopup(popup_7a821a223fc54e3d89916800e26374a8)
+        ;
+
+        
+    
+    
+            var circle_marker_e78d47164b3d4a89b1908384d329d37b = L.circleMarker(
+                [31.64283, 74.87367],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_fd20bd35a7bf49c59d0896c4e5145a4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f85cc7812c34a2eb0f10e9f470c658a = $(`<div id="html_4f85cc7812c34a2eb0f10e9f470c658a" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Shop 7, Ground Floor, Plot 5-B, Circle 110, Lawrence Road, Amritsar</div>`)[0];
+            popup_fd20bd35a7bf49c59d0896c4e5145a4a.setContent(html_4f85cc7812c34a2eb0f10e9f470c658a);
+        
+
+        circle_marker_e78d47164b3d4a89b1908384d329d37b.bindPopup(popup_fd20bd35a7bf49c59d0896c4e5145a4a)
+        ;
+
+        
+    
+    
+            var circle_marker_239f06946c5d489b9e557d27ab763a86 = L.circleMarker(
+                [31.65263, 74.864586],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_53847b23d96e4a78b15496e67bfea397 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_366ebe310c6f4d72b13483e15977fd59 = $(`<div id="html_366ebe310c6f4d72b13483e15977fd59" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, 43, Ranjit Avenue, Next to Ranbaxy Lab, Amritsar</div>`)[0];
+            popup_53847b23d96e4a78b15496e67bfea397.setContent(html_366ebe310c6f4d72b13483e15977fd59);
+        
+
+        circle_marker_239f06946c5d489b9e557d27ab763a86.bindPopup(popup_53847b23d96e4a78b15496e67bfea397)
+        ;
+
+        
+    
+    
+            var circle_marker_b3bab4bc367a4d8fa02f6b13fce1d17a = L.circleMarker(
+                [31.62803, 74.877359],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_06bc7f4c0a184f8bb71e2834cee9c0be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf7ccd53ddeb4e22aab17cf3c6c70dbd = $(`<div id="html_bf7ccd53ddeb4e22aab17cf3c6c70dbd" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, 117/1, Hall bazar, Town Hall, Amritsar</div>`)[0];
+            popup_06bc7f4c0a184f8bb71e2834cee9c0be.setContent(html_bf7ccd53ddeb4e22aab17cf3c6c70dbd);
+        
+
+        circle_marker_b3bab4bc367a4d8fa02f6b13fce1d17a.bindPopup(popup_06bc7f4c0a184f8bb71e2834cee9c0be)
+        ;
+
+        
+    
+    
+            var circle_marker_8e0d85c751d5436791fef3d371c16181 = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_f44385fa142c441dbe42db6771fc0214 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dacf0dfb2c8a4967a13aa6d6089d579c = $(`<div id="html_dacf0dfb2c8a4967a13aa6d6089d579c" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, None</div>`)[0];
+            popup_f44385fa142c441dbe42db6771fc0214.setContent(html_dacf0dfb2c8a4967a13aa6d6089d579c);
+        
+
+        circle_marker_8e0d85c751d5436791fef3d371c16181.bindPopup(popup_f44385fa142c441dbe42db6771fc0214)
+        ;
+
+        
+    
+    
+            var circle_marker_5419687c007645f8ad2eca5f8385bd0f = L.circleMarker(
+                [31.642142, 74.871229],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_fe8593cdcefb453487d60558339b8b69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97475adb11a149099839e2d1b844b492 = $(`<div id="html_97475adb11a149099839e2d1b844b492" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, SCO 35 B/36/13, Aventura Mall, Lawrence Road, White Avenue, Amritsar</div>`)[0];
+            popup_fe8593cdcefb453487d60558339b8b69.setContent(html_97475adb11a149099839e2d1b844b492);
+        
+
+        circle_marker_5419687c007645f8ad2eca5f8385bd0f.bindPopup(popup_fe8593cdcefb453487d60558339b8b69)
+        ;
+
+        
+    
+    
+            var circle_marker_aa268e1f56934ab393e301f3d1d9dbe7 = L.circleMarker(
+                [31.6186368886, 74.9086961523],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_f62a360c242a4c4b9ca81706db878def = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1e8f2c75292447fb291cc333489de24 = $(`<div id="html_c1e8f2c75292447fb291cc333489de24" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Hyatt Regency, Near MBM Farms, Adjoining Alpha One City Center, GT Road, Amritsar</div>`)[0];
+            popup_f62a360c242a4c4b9ca81706db878def.setContent(html_c1e8f2c75292447fb291cc333489de24);
+        
+
+        circle_marker_aa268e1f56934ab393e301f3d1d9dbe7.bindPopup(popup_f62a360c242a4c4b9ca81706db878def)
+        ;
+
+        
+    
+    
+            var circle_marker_6627ece409cf4e83a3e73ced6a5a4e5c = L.circleMarker(
+                [31.641991, 74.883997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_7956ec84bcf540c28d211a9b3ef34511 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd1a857bb7ba4a259d4ce58161bafdb5 = $(`<div id="html_cd1a857bb7ba4a259d4ce58161bafdb5" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Opposite Bandari Hospital, Sehaj Avenue, Majitha Road, Near, Basant Nagar, Amritsar</div>`)[0];
+            popup_7956ec84bcf540c28d211a9b3ef34511.setContent(html_cd1a857bb7ba4a259d4ce58161bafdb5);
+        
+
+        circle_marker_6627ece409cf4e83a3e73ced6a5a4e5c.bindPopup(popup_7956ec84bcf540c28d211a9b3ef34511)
+        ;
+
+        
+    
+    
+            var circle_marker_c9b9a21570b244a1924cbaba87cb8594 = L.circleMarker(
+                [31.639393, 74.890465],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_0d80ac38141140a1a7d61a1bff0316a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eea4a3a93dac49ec8b22e2e314c7ef77 = $(`<div id="html_eea4a3a93dac49ec8b22e2e314c7ef77" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Near Celibration Mall, Basant Nagar</div>`)[0];
+            popup_0d80ac38141140a1a7d61a1bff0316a5.setContent(html_eea4a3a93dac49ec8b22e2e314c7ef77);
+        
+
+        circle_marker_c9b9a21570b244a1924cbaba87cb8594.bindPopup(popup_0d80ac38141140a1a7d61a1bff0316a5)
+        ;
+
+        
+    
+    
+            var circle_marker_2072e2416f4042e79d218934e8ff0497 = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_97ba6b402d074d30ac4351be96c5fb94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b4b24791108424fb130dd39ac101376 = $(`<div id="html_2b4b24791108424fb130dd39ac101376" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, None</div>`)[0];
+            popup_97ba6b402d074d30ac4351be96c5fb94.setContent(html_2b4b24791108424fb130dd39ac101376);
+        
+
+        circle_marker_2072e2416f4042e79d218934e8ff0497.bindPopup(popup_97ba6b402d074d30ac4351be96c5fb94)
+        ;
+
+        
+    
+    
+            var circle_marker_951f7e717fc84a93b4c29d694acd4645 = L.circleMarker(
+                [31.6346038997, 74.875427708],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_777a371ffe35415090bf9fba3edc6287 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33aa0b5d1bd34069a909e4b2e03b7c63 = $(`<div id="html_33aa0b5d1bd34069a909e4b2e03b7c63" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Cooper Road, Maharaja Ranjit Singh Nagar, Company Bagh, Amritsar, Punjab</div>`)[0];
+            popup_777a371ffe35415090bf9fba3edc6287.setContent(html_33aa0b5d1bd34069a909e4b2e03b7c63);
+        
+
+        circle_marker_951f7e717fc84a93b4c29d694acd4645.bindPopup(popup_777a371ffe35415090bf9fba3edc6287)
+        ;
+
+        
+    
+    
+            var circle_marker_359c1723389d4ca3ac794e6639bad0e2 = L.circleMarker(
+                [31.6218987, 74.8804662],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_a3abb48b27934177acb25eb1dd7df371 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8a84cc4eb4f492f9e950fd22dc7ed6a = $(`<div id="html_d8a84cc4eb4f492f9e950fd22dc7ed6a" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Lakkad Mandi Chowk, Near Jallianwala Bagh, Amritsar, Rani Ka Bagh, Amritsar</div>`)[0];
+            popup_a3abb48b27934177acb25eb1dd7df371.setContent(html_d8a84cc4eb4f492f9e950fd22dc7ed6a);
+        
+
+        circle_marker_359c1723389d4ca3ac794e6639bad0e2.bindPopup(popup_a3abb48b27934177acb25eb1dd7df371)
+        ;
+
+        
+    
+    
+            var circle_marker_b6a364116e1f4892abdf4f5d5a445e36 = L.circleMarker(
+                [31.634197, 74.891867],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_4440315379aa4761a4975e76f9a8a60f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2c08e0af42f4dfe9d7c035e7d0b4e60 = $(`<div id="html_e2c08e0af42f4dfe9d7c035e7d0b4e60" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Mohkampura Chowk, Gurudwara Tungpai, Batala Road, Mohkampura Thana Road, Amritsar, Punjab-143001</div>`)[0];
+            popup_4440315379aa4761a4975e76f9a8a60f.setContent(html_e2c08e0af42f4dfe9d7c035e7d0b4e60);
+        
+
+        circle_marker_b6a364116e1f4892abdf4f5d5a445e36.bindPopup(popup_4440315379aa4761a4975e76f9a8a60f)
+        ;
+
+        
+    
+    
+            var circle_marker_c65aa6b09e3141a687073c31a09cc5e8 = L.circleMarker(
+                [31.6209380429, 74.8791113868],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_852c069d5bb743f8b6b7f8818f9d51f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f87400b380149e7b7bca4feff719628 = $(`<div id="html_4f87400b380149e7b7bca4feff719628" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, 424/3, Ground Floor - Hotel Sharma Guest House, Near Golden Temple, Town Hall, Amritsar</div>`)[0];
+            popup_852c069d5bb743f8b6b7f8818f9d51f8.setContent(html_4f87400b380149e7b7bca4feff719628);
+        
+
+        circle_marker_c65aa6b09e3141a687073c31a09cc5e8.bindPopup(popup_852c069d5bb743f8b6b7f8818f9d51f8)
+        ;
+
+        
+    
+    
+            var circle_marker_4b7643f107d7457e83c1a8ec64afea3e = L.circleMarker(
+                [31.625336, 74.798325],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_a83b8c43f2e74dc9b58b365248958a91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9533e8e92e6d46b59098664f208c7ffd = $(`<div id="html_9533e8e92e6d46b59098664f208c7ffd" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Near Punjab National Bank, Partap Bazar, Azad Nagar, Amritsar</div>`)[0];
+            popup_a83b8c43f2e74dc9b58b365248958a91.setContent(html_9533e8e92e6d46b59098664f208c7ffd);
+        
+
+        circle_marker_4b7643f107d7457e83c1a8ec64afea3e.bindPopup(popup_a83b8c43f2e74dc9b58b365248958a91)
+        ;
+
+        
+    
+    
+            var circle_marker_a28fcffdb85545318d1d557b26015351 = L.circleMarker(
+                [31.5721430719, 75.0190831578],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cc3535", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_456be09711824b18a2bb1d33ebeb9753);
+        
+    
+        var popup_5c18cead308f430caef664181c6b112f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a77734b72c848508ca0ee113679eafc = $(`<div id="html_4a77734b72c848508ca0ee113679eafc" style="width: 100.0%; height: 100.0%;">Haveli | ਹਵੇਲੀ, Amritsar - Jalandhar Highway, GT Road, Amritsar</div>`)[0];
+            popup_5c18cead308f430caef664181c6b112f.setContent(html_4a77734b72c848508ca0ee113679eafc);
+        
+
+        circle_marker_a28fcffdb85545318d1d557b26015351.bindPopup(popup_5c18cead308f430caef664181c6b112f)
+        ;
+
+        
+    
+</script>

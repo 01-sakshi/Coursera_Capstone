@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ca0ea05feec841e2a90759808a5e9cda {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ca0ea05feec841e2a90759808a5e9cda" ></div>
+        
+</body>
+<script>    
+    
+            var map_ca0ea05feec841e2a90759808a5e9cda = L.map(
+                "map_ca0ea05feec841e2a90759808a5e9cda",
+                {
+                    center: [31.6343083, 74.8736788],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a0a675d407af4c9398a1de87418640ff = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var marker_5a1c0c4ce31140788be99be369a35d0f = L.marker(
+                [31.6284, 74.8767],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_c00b4aa8c8454177b9e6e8b3286de7f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5a1c0c4ce31140788be99be369a35d0f.setIcon(icon_c00b4aa8c8454177b9e6e8b3286de7f1);
+        
+    
+        var popup_3961d483a9e242a4b074438fa23707b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fc2ebb377eb46ba91881970d4040d66 = $(`<div id="html_4fc2ebb377eb46ba91881970d4040d66" style="width: 100.0%; height: 100.0%;">Punjab Dhaba, Chowk Gol Hatti,Opposite Yes Bank, Town Hall, Amritsar</div>`)[0];
+            popup_3961d483a9e242a4b074438fa23707b2.setContent(html_4fc2ebb377eb46ba91881970d4040d66);
+        
+
+        marker_5a1c0c4ce31140788be99be369a35d0f.bindPopup(popup_3961d483a9e242a4b074438fa23707b2)
+        ;
+
+        
+    
+    
+            var marker_822f38a669ff440cb59586381ad54f32 = L.marker(
+                [31.6461, 74.878],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_4fb6eaffa4924386b8ff8effeccdad64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_822f38a669ff440cb59586381ad54f32.setIcon(icon_4fb6eaffa4924386b8ff8effeccdad64);
+        
+    
+        var popup_42adf8f8cd2142189d4ed58bc955d643 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_501afefc9c194a869fbe6fe36c790586 = $(`<div id="html_501afefc9c194a869fbe6fe36c790586" style="width: 100.0%; height: 100.0%;">Kanha Sweets, Shop 1, Opposite Bijli Pehalwan Mandir, Lawrence Road, Lawrence Road, Amritsar</div>`)[0];
+            popup_42adf8f8cd2142189d4ed58bc955d643.setContent(html_501afefc9c194a869fbe6fe36c790586);
+        
+
+        marker_822f38a669ff440cb59586381ad54f32.bindPopup(popup_42adf8f8cd2142189d4ed58bc955d643)
+        ;
+
+        
+    
+    
+            var marker_7ff778b9eabc4ce99d64b02cec628638 = L.marker(
+                [31.6244, 74.873],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_733ec2bc6dcd42afbd0be96a9958fd46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7ff778b9eabc4ce99d64b02cec628638.setIcon(icon_733ec2bc6dcd42afbd0be96a9958fd46);
+        
+    
+        var popup_627e9597a409416db30dfa2442a7a700 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc15b013bf6146b683dabfb2f698d978 = $(`<div id="html_fc15b013bf6146b683dabfb2f698d978" style="width: 100.0%; height: 100.0%;">Kesar Da Dhaba, Near Telephone Exchange, Chowk Passian, Hathi Gate, Amritsar</div>`)[0];
+            popup_627e9597a409416db30dfa2442a7a700.setContent(html_fc15b013bf6146b683dabfb2f698d978);
+        
+
+        marker_7ff778b9eabc4ce99d64b02cec628638.bindPopup(popup_627e9597a409416db30dfa2442a7a700)
+        ;
+
+        
+    
+    
+            var marker_e77fd04a6b4a4c46885632d06bfd2291 = L.marker(
+                [31.6355, 74.8759],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_ff0ba7e065fc4139aa8bf170d4dd1d2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e77fd04a6b4a4c46885632d06bfd2291.setIcon(icon_ff0ba7e065fc4139aa8bf170d4dd1d2f);
+        
+    
+        var popup_de608fd79c2d4fef9cd45227deca2345 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf4757bf75b449648d6e4e47b49586a9 = $(`<div id="html_bf4757bf75b449648d6e4e47b49586a9" style="width: 100.0%; height: 100.0%;">Crystal Restaurant Plaza, 1st and 2nd Floor, Crystal Chowk, Queens Road, INA Colony, Amritsar</div>`)[0];
+            popup_de608fd79c2d4fef9cd45227deca2345.setContent(html_bf4757bf75b449648d6e4e47b49586a9);
+        
+
+        marker_e77fd04a6b4a4c46885632d06bfd2291.bindPopup(popup_de608fd79c2d4fef9cd45227deca2345)
+        ;
+
+        
+    
+    
+            var marker_ab52e758266c4d2eb8a66a97436290e2 = L.marker(
+                [31.6214, 74.8785],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_4a66acfa4da94c42a16ead1e43ab8100 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ab52e758266c4d2eb8a66a97436290e2.setIcon(icon_4a66acfa4da94c42a16ead1e43ab8100);
+        
+    
+        var popup_3a4450dc2cb84d0fa845790b5bf2a101 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa9d9173f48c40cfb95b1ce91feab83d = $(`<div id="html_fa9d9173f48c40cfb95b1ce91feab83d" style="width: 100.0%; height: 100.0%;">Bhai Kulwant Singh Kulchian Wale, Bazar Bikaneria, Near Golden Temple, Katra Ahluwalia, Town Hall, Amritsar</div>`)[0];
+            popup_3a4450dc2cb84d0fa845790b5bf2a101.setContent(html_fa9d9173f48c40cfb95b1ce91feab83d);
+        
+
+        marker_ab52e758266c4d2eb8a66a97436290e2.bindPopup(popup_3a4450dc2cb84d0fa845790b5bf2a101)
+        ;
+
+        
+    
+    
+            var marker_482853ff08ee4369813d2307b92816cb = L.marker(
+                [31.634, 74.86],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_3357090830f64cdfa7d97865e2e83944 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_482853ff08ee4369813d2307b92816cb.setIcon(icon_3357090830f64cdfa7d97865e2e83944);
+        
+    
+        var popup_e5eeb089e5144f85b180590adeecba1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b425c8bf2dc48f49c03f8150d15b91e = $(`<div id="html_3b425c8bf2dc48f49c03f8150d15b91e" style="width: 100.0%; height: 100.0%;">Buzz - Hotel Golden Tulip, Golden Tulip, 8, GT Road, Model Town, Rani Ka Bagh, Amritsar</div>`)[0];
+            popup_e5eeb089e5144f85b180590adeecba1a.setContent(html_3b425c8bf2dc48f49c03f8150d15b91e);
+        
+
+        marker_482853ff08ee4369813d2307b92816cb.bindPopup(popup_e5eeb089e5144f85b180590adeecba1a)
+        ;
+
+        
+    
+    
+            var marker_9d652d376ee947108e46b0f25108b73a = L.marker(
+                [31.6353, 74.8735],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_ac1319dafbc745dbbc70293e5311f6b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9d652d376ee947108e46b0f25108b73a.setIcon(icon_ac1319dafbc745dbbc70293e5311f6b6);
+        
+    
+        var popup_f0bf6f56e4454b3fbecf63fc0195bb66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dc3277535d44302b155f637ff6d7c78 = $(`<div id="html_1dc3277535d44302b155f637ff6d7c78" style="width: 100.0%; height: 100.0%;">Cafe Mosaic - Country Inn &amp; Suites, Country Inn &amp; Suites, Queens Road, INA Colony, Amritsar</div>`)[0];
+            popup_f0bf6f56e4454b3fbecf63fc0195bb66.setContent(html_1dc3277535d44302b155f637ff6d7c78);
+        
+
+        marker_9d652d376ee947108e46b0f25108b73a.bindPopup(popup_f0bf6f56e4454b3fbecf63fc0195bb66)
+        ;
+
+        
+    
+    
+            var marker_8b0021746e9448f8b1c9187a5fb8010c = L.marker(
+                [31.6532, 74.8639],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_0f307bc2e77e4c5098e24b2ac44be593 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8b0021746e9448f8b1c9187a5fb8010c.setIcon(icon_0f307bc2e77e4c5098e24b2ac44be593);
+        
+    
+        var popup_fae1552e0d10487b9c44688413bd6ac9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bda9b1b287045a0b2e97f86268b2d36 = $(`<div id="html_4bda9b1b287045a0b2e97f86268b2d36" style="width: 100.0%; height: 100.0%;">The Kulcha Land, Opposite District Shopping Centre, Ranjit Avenue, Amritsar</div>`)[0];
+            popup_fae1552e0d10487b9c44688413bd6ac9.setContent(html_4bda9b1b287045a0b2e97f86268b2d36);
+        
+
+        marker_8b0021746e9448f8b1c9187a5fb8010c.bindPopup(popup_fae1552e0d10487b9c44688413bd6ac9)
+        ;
+
+        
+    
+    
+            var marker_6af042f95807470480c790c0ceb5243d = L.marker(
+                [31.6215, 74.8797],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_b942f6cb1393457db8411861f9736b51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6af042f95807470480c790c0ceb5243d.setIcon(icon_b942f6cb1393457db8411861f9736b51);
+        
+    
+        var popup_779c217345244c9e94bccfa6441f86f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19034496315a41b39e6ecf5e696df1ff = $(`<div id="html_19034496315a41b39e6ecf5e696df1ff" style="width: 100.0%; height: 100.0%;">Mirch Masala Punjabi Dhaba, Shop 6, Near Bazar Bagh, Jallianwala, Town Hall, Amritsar</div>`)[0];
+            popup_779c217345244c9e94bccfa6441f86f2.setContent(html_19034496315a41b39e6ecf5e696df1ff);
+        
+
+        marker_6af042f95807470480c790c0ceb5243d.bindPopup(popup_779c217345244c9e94bccfa6441f86f2)
+        ;
+
+        
+    
+    
+            var marker_72815a9c881e4c6c91d4c4238e65b88e = L.marker(
+                [31.6186, 74.9087],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_8256857a517d4b7195d280c3dd510bf0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_72815a9c881e4c6c91d4c4238e65b88e.setIcon(icon_8256857a517d4b7195d280c3dd510bf0);
+        
+    
+        var popup_601c70d4b4cf4a3885ec5f37eba9a14b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21bcb1a3fc064edca0135cb5c5aae3d9 = $(`<div id="html_21bcb1a3fc064edca0135cb5c5aae3d9" style="width: 100.0%; height: 100.0%;">Scotch Haus - Hyatt Regency Amritsar, Hyatt Regency, MBM Farms, GT Road, Amritsar</div>`)[0];
+            popup_601c70d4b4cf4a3885ec5f37eba9a14b.setContent(html_21bcb1a3fc064edca0135cb5c5aae3d9);
+        
+
+        marker_72815a9c881e4c6c91d4c4238e65b88e.bindPopup(popup_601c70d4b4cf4a3885ec5f37eba9a14b)
+        ;
+
+        
+    
+    
+            var marker_bc9b9fdd805242a2990e77747df54279 = L.marker(
+                [31.6423, 74.8762],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_3a6311c7b0aa4fefa2ee1e77a6d3292f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bc9b9fdd805242a2990e77747df54279.setIcon(icon_3a6311c7b0aa4fefa2ee1e77a6d3292f);
+        
+    
+        var popup_fbc63fa1ff7149baaca691a205f899cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e01a20c2de24f7e84d44520a1fc25db = $(`<div id="html_4e01a20c2de24f7e84d44520a1fc25db" style="width: 100.0%; height: 100.0%;">Surjit Food Plaza, Shop 4, Nehru Shopping Complex, Lawrence Road, Amritsar</div>`)[0];
+            popup_fbc63fa1ff7149baaca691a205f899cb.setContent(html_4e01a20c2de24f7e84d44520a1fc25db);
+        
+
+        marker_bc9b9fdd805242a2990e77747df54279.bindPopup(popup_fbc63fa1ff7149baaca691a205f899cb)
+        ;
+
+        
+    
+    
+            var marker_4ee404f265174b478621d66e50200802 = L.marker(
+                [31.6309, 74.8742],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_a99796ce763444688e8d6d8a30b13fde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4ee404f265174b478621d66e50200802.setIcon(icon_a99796ce763444688e8d6d8a30b13fde);
+        
+    
+        var popup_21a378f4882640d196bd6770812b7991 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08cd237005444991afd57fef40bff258 = $(`<div id="html_08cd237005444991afd57fef40bff258" style="width: 100.0%; height: 100.0%;">Canadian Pizza, Shop 13 I/S, Hall Gate Hathi Gate, Amritsar</div>`)[0];
+            popup_21a378f4882640d196bd6770812b7991.setContent(html_08cd237005444991afd57fef40bff258);
+        
+
+        marker_4ee404f265174b478621d66e50200802.bindPopup(popup_21a378f4882640d196bd6770812b7991)
+        ;
+
+        
+    
+    
+            var marker_61bd37feb0694716aa77ea6de2180c76 = L.marker(
+                [31.7058, 74.8189],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_73be299205234cb582db27251c0296e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_61bd37feb0694716aa77ea6de2180c76.setIcon(icon_73be299205234cb582db27251c0296e3);
+        
+    
+        var popup_22e40b340632400eb8cb979def339cea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_310aadc3be6b478daa6d63fecad7a4bc = $(`<div id="html_310aadc3be6b478daa6d63fecad7a4bc" style="width: 100.0%; height: 100.0%;">Proof - Radisson Blu, Ajnala Road, State Highway 25, Opposite International Airport, Off Ranjit Avenue, Amritsar</div>`)[0];
+            popup_22e40b340632400eb8cb979def339cea.setContent(html_310aadc3be6b478daa6d63fecad7a4bc);
+        
+
+        marker_61bd37feb0694716aa77ea6de2180c76.bindPopup(popup_22e40b340632400eb8cb979def339cea)
+        ;
+
+        
+    
+    
+            var marker_3cde28fd6f334ebab04992698ef25386 = L.marker(
+                [31.6435, 74.8844],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_58bad8a1ef834a2eae3038d231d6abac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3cde28fd6f334ebab04992698ef25386.setIcon(icon_58bad8a1ef834a2eae3038d231d6abac);
+        
+    
+        var popup_6a866d0590f0494fb39655162948b0c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c20f22dad6a84e78b1928244f7166c2b = $(`<div id="html_c20f22dad6a84e78b1928244f7166c2b" style="width: 100.0%; height: 100.0%;">Makhan Fish and Chicken Corner Since 1962, 21-A, Near Madaan Hospital, Majitha Road, Amritsar</div>`)[0];
+            popup_6a866d0590f0494fb39655162948b0c9.setContent(html_c20f22dad6a84e78b1928244f7166c2b);
+        
+
+        marker_3cde28fd6f334ebab04992698ef25386.bindPopup(popup_6a866d0590f0494fb39655162948b0c9)
+        ;
+
+        
+    
+    
+            var marker_d2e890ace93244e2a7eb610740d1d118 = L.marker(
+                [31.6197, 74.9077],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_543917ead7a34de89826bf1c5b87deef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d2e890ace93244e2a7eb610740d1d118.setIcon(icon_543917ead7a34de89826bf1c5b87deef);
+        
+    
+        var popup_7fd4fcbb8c594dd781404aa23c0c04a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acca75f8ff594a008d8c882cd257a6bc = $(`<div id="html_acca75f8ff594a008d8c882cd257a6bc" style="width: 100.0%; height: 100.0%;">Dosa Place, S 026, 2ndFloor, Food Court, Mall Of Amritsar, GT Road, Amritsar</div>`)[0];
+            popup_7fd4fcbb8c594dd781404aa23c0c04a9.setContent(html_acca75f8ff594a008d8c882cd257a6bc);
+        
+
+        marker_d2e890ace93244e2a7eb610740d1d118.bindPopup(popup_7fd4fcbb8c594dd781404aa23c0c04a9)
+        ;
+
+        
+    
+    
+            var marker_b7167fb1486b49edb81b31b6f974d6ec = L.marker(
+                [31.7058, 74.8189],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_f3c8c64247c2473081624647253c4fa0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b7167fb1486b49edb81b31b6f974d6ec.setIcon(icon_f3c8c64247c2473081624647253c4fa0);
+        
+    
+        var popup_3e0e7f2cca2c45158315a757c25304a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d2b51b8e27f4358af626cc8fd8ee8cb = $(`<div id="html_1d2b51b8e27f4358af626cc8fd8ee8cb" style="width: 100.0%; height: 100.0%;">Proof - Radisson Blu, Ajnala Road, State Highway 25, Opposite International Airport, Off Ranjit Avenue, Amritsar</div>`)[0];
+            popup_3e0e7f2cca2c45158315a757c25304a3.setContent(html_1d2b51b8e27f4358af626cc8fd8ee8cb);
+        
+
+        marker_b7167fb1486b49edb81b31b6f974d6ec.bindPopup(popup_3e0e7f2cca2c45158315a757c25304a3)
+        ;
+
+        
+    
+    
+            var marker_9e4e263d4bc947e9b47b59d99ede23f3 = L.marker(
+                [31.6428, 74.8737],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_d77ff354dde841bd9a9fd5579a926dd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9e4e263d4bc947e9b47b59d99ede23f3.setIcon(icon_d77ff354dde841bd9a9fd5579a926dd7);
+        
+    
+        var popup_11668d23195e4f3f9a07d0157018f87e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7842e2cb72484f5ca6b1cd1890a0108b = $(`<div id="html_7842e2cb72484f5ca6b1cd1890a0108b" style="width: 100.0%; height: 100.0%;">Domino&#39;s Pizza, Shop 7, Ground Floor, Plot 5-B, Circle 110, Lawrence Road, Amritsar</div>`)[0];
+            popup_11668d23195e4f3f9a07d0157018f87e.setContent(html_7842e2cb72484f5ca6b1cd1890a0108b);
+        
+
+        marker_9e4e263d4bc947e9b47b59d99ede23f3.bindPopup(popup_11668d23195e4f3f9a07d0157018f87e)
+        ;
+
+        
+    
+    
+            var marker_f5e7fac9be1846c0bb0f004e1f3d4ecf = L.marker(
+                [31.628, 74.8774],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_a1cd9a6834ec47678ef995e41abbfbe0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f5e7fac9be1846c0bb0f004e1f3d4ecf.setIcon(icon_a1cd9a6834ec47678ef995e41abbfbe0);
+        
+    
+        var popup_9b6f1618835f428fbff21793a67dc1e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8748ac5b4f2d4391afb3d5c999313d74 = $(`<div id="html_8748ac5b4f2d4391afb3d5c999313d74" style="width: 100.0%; height: 100.0%;">Al Fresco - Ramada, 117/1, Hall bazar, Town Hall, Amritsar</div>`)[0];
+            popup_9b6f1618835f428fbff21793a67dc1e3.setContent(html_8748ac5b4f2d4391afb3d5c999313d74);
+        
+
+        marker_f5e7fac9be1846c0bb0f004e1f3d4ecf.bindPopup(popup_9b6f1618835f428fbff21793a67dc1e3)
+        ;
+
+        
+    
+    
+            var marker_d816708a56ee462faf09ca51a34fe219 = L.marker(
+                [31.6421, 74.8712],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_3b31e91308944a86b213510e8723eee2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d816708a56ee462faf09ca51a34fe219.setIcon(icon_3b31e91308944a86b213510e8723eee2);
+        
+    
+        var popup_a9c3b8f79643452c9ff11e390221cc17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85274d1875334bdc8fe460b8af06edba = $(`<div id="html_85274d1875334bdc8fe460b8af06edba" style="width: 100.0%; height: 100.0%;">KFC, SCO 35 B/36/13, Aventura Mall, Lawrence Road, White Avenue, Amritsar</div>`)[0];
+            popup_a9c3b8f79643452c9ff11e390221cc17.setContent(html_85274d1875334bdc8fe460b8af06edba);
+        
+
+        marker_d816708a56ee462faf09ca51a34fe219.bindPopup(popup_a9c3b8f79643452c9ff11e390221cc17)
+        ;
+
+        
+    
+    
+            var marker_01219c892e864fdeb3243c2521a49468 = L.marker(
+                [31.642, 74.884],
+                {}
+            ).addTo(map_ca0ea05feec841e2a90759808a5e9cda);
+        
+    
+            var icon_34a17e2f9c1144c6b67897f39a9d246a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_01219c892e864fdeb3243c2521a49468.setIcon(icon_34a17e2f9c1144c6b67897f39a9d246a);
+        
+    
+        var popup_5021547fe98041e69f75b650f9c347d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cc4728c8762475c8b07820f3977f2ae = $(`<div id="html_2cc4728c8762475c8b07820f3977f2ae" style="width: 100.0%; height: 100.0%;">Beera Chicken House, Opposite Bandari Hospital, Sehaj Avenue, Majitha Road, Near, Basant Nagar, Amritsar</div>`)[0];
+            popup_5021547fe98041e69f75b650f9c347d6.setContent(html_2cc4728c8762475c8b07820f3977f2ae);
+        
+
+        marker_01219c892e864fdeb3243c2521a49468.bindPopup(popup_5021547fe98041e69f75b650f9c347d6)
+        ;
+
+        
+    
+</script>
